@@ -26,3 +26,27 @@
         }
     }
 }
+@media(max-width:900px){
+    .home{
+
+        .home-cont{
+
+            .home-wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .sidebar-box{
+                    position: absolute;
+                    top: 5rem;
+                    right: .5rem;
+                }
+
+                .middle-box{
+
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

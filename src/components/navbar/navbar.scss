@@ -48,3 +48,18 @@
         }
     }
 }
+@media(max-width:900px){
+    .navbar{
+        gap: .8rem;
+
+        .logo{
+            font-size: 1.2rem;
+
+        }
+        ul{
+            .icons{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
