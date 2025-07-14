@@ -1,0 +1,171 @@
+
+.left{
+    margin:.5em 1em;
+    padding: 1em 2em;
+    flex: 2;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .text{
+            font-size: 2.8rem;
+            margin: 0;
+            color: rgba(0, 0, 0, 0.754);
+            font-weight: 600;
+
+        }
+        .balance{
+            font-size: 5rem;
+            margin: 0;
+            font-weight: 700;
+            margin-bottom: .2em;
+
+        }
+        .but-div{
+            display: flex;
+            gap: 2rem;
+            
+            > * {
+                align-items: center;
+                padding: 1em 2em;
+                border-radius: .8rem;
+                font-size: 1.5rem;
+                gap: .5rem;
+                justify-content: center;
+                display: flex;
+                background-color: white;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 1px 2px 5px .5px rgba(201, 201, 201, 0.47);
+                transition: all .2s;
+                
+                &:hover{
+                    box-shadow: 4px 8px 20px 2px rgba(201, 201, 201, 0.47);
+                }
+            }
+
+            div{
+                .icons{
+                    color: #3333339d;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .bottom{
+
+        .upper{
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 4rem;
+
+
+            .capa-cont{
+                display: flex;
+                flex-direction: column;
+                gap: .3rem;
+
+    
+                .capa-div{
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                }
+                
+                .net-div{
+                    font-size: 2.2rem;
+                    color: #3333339d;
+                }
+            }
+
+            .inner{
+                display: flex;
+                gap: 1rem;
+                align-items: end;
+
+
+                div{
+                    .icons{
+                        color: #3333339d;
+                        border-radius: .8rem;
+                        padding: 1em .8em;
+                        background-color: white;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 1px 2px 5px .5px rgba(201, 201, 201, 0.47);
+                        transition: all .2s;
+                        text-align: center;
+                        font-size: 2.2rem;
+                                    
+                        &:hover{
+                            box-shadow: 4px 8px 20px 2px rgba(201, 201, 201, 0.47);
+                        }
+
+                    }
+                }
+            }
+        }
+        .lower{
+            display: flex;
+            gap: 2rem;
+
+            .circle{
+                width: 15rem;
+            }
+
+            .assets{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .ass-div{
+                    display: flex;
+                    flex-direction: column;
+
+                    .ass{
+                        font-size: 1.8rem;
+                        color: #3333339d;
+
+                    }
+
+                    span{
+                         font-size: 1.6rem;
+                    }
+
+                    .bars{
+                        background-color:#33333311;
+                        height: 1.3rem;
+                        border-radius: 1rem;
+                        z-index: 2;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+
+                        label{
+                            background-color: white;
+                            z-index: 10;
+                            width: 40%;
+                            display: inline-block; 
+                            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                            box-shadow: 1px 2px 5px .5px rgba(201, 201, 201, 0.47);    
+                            height: 1.3rem;
+                            border-radius: .5rem;
+                                            
+                            &:hover{
+                                box-shadow: 4px 8px 20px 2px rgba(201, 201, 201, 0.47);
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}

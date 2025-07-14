@@ -1,0 +1,28 @@
+
+.home{
+
+    .home-cont{
+
+        
+        .home-wrapper{
+            font-weight: 700;
+            display: flex;
+
+            .middle-box{
+                flex: 5;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-self: start;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sidebar-box{
+                margin-left: auto;
+                flex: 1;
+    
+            }
+        }
+    }
+}
