@@ -127,10 +127,15 @@
 }
 @media(max-width:600px){
     .topcard{
+        max-width: 80%;
+        margin-top: 3em;
+
 
         .top{
+            margin-bottom: .1em;
 
             .left-top{
+                gap: .5rem;
 
                 h4{
                     font-size: 1rem;
@@ -138,16 +143,53 @@
                 h1{
                     font-size: 1rem;
                 }
+                .green{
+                    .arrows{
+                        font-size: 1rem;
+                    }
+                    span{
+                        font-size: .6rem;
+                    }
+                    p{
+                        font-size: .6rem;
+                    }
+
+                }
+            }
+            .right-top{
+
+                h4{
+                    font-size: .8rem;
+                }
+                h3{
+                    font-size: .7rem;
+                }
+                .green-sm{
+
+                    .arrows{
+                        font-size: .6rem;
+                    }
+                    span{
+                        font-size: .6rem;
+                    }
+                    p{
+                        font-size: .6rem;
+                    }
+
+                }
             }
         }
         .bottom{
+            justify-self: center;
             .crypto-div{
+                  padding: .6em 1em;
 
                 .crypto-icn{
-                    font-size: 1rem;
+                    border-radius: .2rem;
+                    font-size: .8rem;
                 }
                 h5{
-                    font-size: .5rem;
+                    font-size: .6rem;
                 }
                 span{
                     font-size:.5rem;

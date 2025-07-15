@@ -10,7 +10,7 @@ const Bottomcard = () => {
             <div className='title'> Benefits </div>
             <div className='calendar'> June - December </div>
             <div className='set-cont'>
-                <Settings />
+                <Settings className='icon' />
             </div>
         </div>
         <div className='bottom'>

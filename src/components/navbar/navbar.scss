@@ -50,13 +50,14 @@
 }
 @media(max-width:600px){
     .navbar{
-        width: 94%;
+        width: 100%;
 
         .logo{
             font-size: 1rem;
+            margin-left: .5em;
         }
         ul{
-           gap: 1rem;
+           gap: .5rem;
            justify-content: space-between; 
 
             .icons{

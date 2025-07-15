@@ -172,6 +172,8 @@
 @media(max-width:600px){
     .left{
         margin: .5em .1em;
+        align-self: start;
+        padding: 0 1em;
 
         .top{
             margin-top: 1em;
@@ -205,20 +207,19 @@
                 .capa-cont{
 
                     .capa-div{
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                     }
                     .net-div{
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
                     }
                 }
                 .inner{
-                    margin-bottom: 1em;
 
                     div{
 
                         .icons{
                             padding: .6em .8em;
-                            font-size: 1.5rem;
+                            font-size: 1.3rem;
                         }
                     }
 
@@ -227,7 +228,7 @@
             .lower{
 
                 .circle{
-                    width: 10rem;
+                    width: 8rem;
                 }
 
                 .assets{
@@ -235,10 +236,10 @@
                     .ass-div{
 
                         .ass{
-                            font-size: 1.2rem;
+                            font-size: 1.1rem;
                         }
                         span{
-                            font-size: 1.2rem;
+                            font-size: 1rem;
                         }
                         .bars{
                             height: .5rem;

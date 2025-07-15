@@ -32,3 +32,32 @@
         }
     }
 }
+@media(max-width:600px){
+    .bottomcard{
+        width: 80%;
+        margin: .1em;
+
+        .top{
+
+            .title{
+                padding: .2em .5em;
+                font-size: .8rem;
+            }
+
+            .calendar{
+                padding: .2em .5em;
+                font-size: .8rem;
+            }
+
+            .set-cont{
+                padding: .2em .5em;
+                font-size: .5rem;
+
+                .icon{
+                    font-size: .8rem;
+                }
+            }
+        }
+    
+    }
+}
