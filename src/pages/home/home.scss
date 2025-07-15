@@ -26,25 +26,24 @@
         }
     }
 }
-@media(max-width:900px){
+
+@media(max-width:960px){
     .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         .home-cont{
+            width: 100%;
 
             .home-wrapper{
                 display: flex;
-                position: relative;
+                width: 100%;
                 flex-direction: column;
                 align-items: center;
 
-                .sidebar-box{
-                    position: absolute;
-                    top: 5rem;
-                    right: .5rem;
-                }
-
                 .middle-box{
-
                     width: 100%;
                 }
             }

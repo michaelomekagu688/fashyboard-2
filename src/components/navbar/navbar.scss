@@ -48,17 +48,23 @@
         }
     }
 }
-@media(max-width:900px){
+@media(max-width:960px){
     .navbar{
-        gap: .8rem;
+        width: 94%;
 
         .logo{
-            font-size: 1.2rem;
-
+            font-size: 1.5rem;
         }
         ul{
+           gap: 1rem;
+           justify-content: space-between; 
+
             .icons{
-                font-size: 1.3rem;
+
+                font-size: 1.8rem;
+            }
+            .settings{
+                margin-right:1em;
             }
         }
     }
