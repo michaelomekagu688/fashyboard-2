@@ -125,3 +125,34 @@
         }
     }
 }
+@media(max-width:600px){
+    .topcard{
+
+        .top{
+
+            .left-top{
+
+                h4{
+                    font-size: 1rem;
+                }
+                h1{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .bottom{
+            .crypto-div{
+
+                .crypto-icn{
+                    font-size: 1rem;
+                }
+                h5{
+                    font-size: .5rem;
+                }
+                span{
+                    font-size:.5rem;
+                }
+            }
+        }
+    }
+}
