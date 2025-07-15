@@ -177,22 +177,23 @@
             margin-top: 1em;
 
             .text{
-                font-size: 2rem;
+                font-size: 1.5rem;
 
             }
             .balance{
-                font-size: 3.5rem;
+                font-size: 1.8rem;
             }
             .but-div{
                 margin-top: 1em;
                 margin-bottom: 3em;
-                gap: 1rem;
+                gap: .5rem;
+                
                 justify-content: space-between;
 
                 > * {
-                    padding: 1.4em 1.4em;
-                    border-radius: 1rem;
-                    font-size: 1.3rem;
+                    padding: 1.2em 1.4em;
+                    border-radius: .8rem;
+                    font-size: .8rem;
                 }
             }
         }
@@ -204,10 +205,10 @@
                 .capa-cont{
 
                     .capa-div{
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                     }
                     .net-div{
-                        font-size: 1.7rem;
+                        font-size: 1.2rem;
                     }
                 }
                 .inner{
@@ -217,10 +218,35 @@
 
                         .icons{
                             padding: .6em .8em;
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                         }
                     }
 
+                }
+            }
+            .lower{
+
+                .circle{
+                    width: 10rem;
+                }
+
+                .assets{
+
+                    .ass-div{
+
+                        .ass{
+                            font-size: 1.2rem;
+                        }
+                        span{
+                            font-size: 1.2rem;
+                        }
+                        .bars{
+                            height: .5rem;
+                            label{
+                                height: .5rem;
+                            }
+                        }
+                    }
                 }
             }
         }
